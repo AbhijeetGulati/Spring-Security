@@ -83,6 +83,7 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.DELETE,"/api/employees/**").hasRole("ADMIN")
                        // .requestMatchers(HttpMethod.GET,"/hello").hasRole("ADMIN")
 
+
     );
         //use HTTP Basic Authentication
         http.httpBasic();
